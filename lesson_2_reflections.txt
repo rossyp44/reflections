@@ -18,4 +18,5 @@ It helps understanding the differences among the different branches
 The last version contains changes committed in both branches but by different paths.
 
 * What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+It helps when there are no conflicts automatically merging the files. When there is conflict it is also handy to know what is the code that generates the conflict and git spot it for us.
 
