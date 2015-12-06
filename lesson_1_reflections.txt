@@ -1,0 +1,63 @@
+Lesson1
+Udacity Course - How to Use Git and GitHub
+
+* How did viewing a diff between two versions of a file help you see the bug that was introduced?
+- The differences between both files were highlighted, so the number of lines to review were just a few ones. Trying to understand a little the code the word spacn didn't make sense.
+
+* How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+- It would make easy to check what were the most recent changes, who did them and when.
+
+* What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+- pros: you will commit changes that are functional without introducing errors to the rest of the team, you have control of when and what to commit.
+- cons: you can forget include some of the changes, the rest of the team could be working in an old version of the same files.
+
+* Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Because a system is usually a set of files for instance and html that has a style through a css file and add some client behaviour through javascript.
+
+* How can you use the commands git log and git diff to view the history of files?
+- git log gives a list of commits ordered from newest to oldest with their ids, then git diff can be used to check what are the differences between the two files using their ids.
+
+* How might using version control make you more confident to make changes that could break something?
+- There is always a backup of each change committed to the repository so we can always go back to a previous version
+
+* Now that you have your workspace set up, what do you want to try using Git for?
+- to integrate source files with others in the repository
+
+
+* OS command to compare files
+MAC: diff -u old-file.txt new-file.txt
+Windows: FC old-file.txt new-file.txt
+
+* git clone https://github.com/udacity/asteroids.git
+* git config --global color.ui auto configure colours to spot differences green and red
+* use q to quit
+* git --version to see if it is installed
+* git log to see the commits done, press arrow down to see it
+* the order of commits in newest to oldest
+* git diff id1 id2 to see the differences between the files, then count reds and greens
+* git checkout id to jump to a previous version of a state of files
+
+ 
+Now there are a bunch of new things is my mac that I am not used to:
+1) some commands
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+
+2) 
+Find where the subl command is located. 
+subl comes with Sublime, so it should be in the directory where Sublime is located for you.  For many people, this is /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin.  To test this, run ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin.  You should see the subl command listed.  If you get the error No such file or directory, Sublime is located somewhere else for you and you'll need to find it.
+
+If you do not have a file named .bash_profile in your home directory, create it.  Because the name of this file begins with a period, it will not appear in most file navigators or when you run ls.  Instead, run ls -a to see if you have the file.
+
+Add the line export PATH=$PATH:/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin to the end of your .bash_profile.  If subl was in a different directory for you in step 1, use that directory.
+
+Close and re-open your terminal.  Typing subl in the terminal should now open Sublime.
+
+To open the .bash_profile file I used sudo nano .bash_profile
+3)
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
