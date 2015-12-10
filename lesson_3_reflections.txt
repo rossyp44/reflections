@@ -11,4 +11,7 @@ When collaborating with other team members.
 * Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Because you have been working in some code and you don’t want it to be overwritten by an automatic pull.
 
-
+* Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Clone: is a copy of a repository locally or from a remote source
+Branch: local copy of a repository with different name
+Fork: remote copy of a gitHub repository, both exist in gitHub
