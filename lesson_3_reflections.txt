@@ -1,0 +1,6 @@
+lesson3 reflections
+
+* git remote --> to view and create remotes
+* git remote add origin url.git --> to create an alias to the remote repository, it is common to use origin as name
+* git remote -v --> v for verbose shows the push and fetch urls
+* git push origin master --> to send the changes in my master branch to the remote origin
