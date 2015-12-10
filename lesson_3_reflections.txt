@@ -4,3 +4,7 @@ lesson3 reflections
 * git remote add origin url.git --> to create an alias to the remote repository, it is common to use origin as name
 * git remote -v --> v for verbose shows the push and fetch urls
 * git push origin master --> to send the changes in my master branch to the remote origin
+
+* When would you want to use a remote repository rather than keeping all your work local?
+When collaborating with other team members.
+
