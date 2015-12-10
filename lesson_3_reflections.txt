@@ -1,4 +1,5 @@
 lesson3 reflections
+GitHub Collaboration
 
 * git remote --> to view and create remotes
 * git remote add origin url.git --> to create an alias to the remote repository, it is common to use origin as name
@@ -15,3 +16,6 @@ Because you have been working in some code and you don’t want it to be overwri
 Clone: is a copy of a repository locally or from a remote source
 Branch: local copy of a repository with different name
 Fork: remote copy of a gitHub repository, both exist in gitHub
+
+* * What is the benefit 
+These changes have been done directly in github
