@@ -18,5 +18,9 @@ Branch: local copy of a repository with different name
 Fork: remote copy of a gitHub repository, both exist in gitHub
 
 * What is the benefit of having a copy of the last known state of the remote stored locally?
-Because there is a common comparetion point for collaborators given that other changes could have been pushed already.
+Because there is a common comparation point for collaborators given that other changes could have been pushed already.
+
+* How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Easier to get the file, difficult to integrate them
+
 
